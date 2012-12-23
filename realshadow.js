@@ -82,9 +82,9 @@
 				( Math.pow(i, 1.7) >> 0 ) +
 				'px rgba(' +
 				(el.c ?
-					(el.c.r ? ( intensity * (el.c.r / 256 )) : 0) + ',' +
-					(el.c.g ? ( intensity * (el.c.g / 256 )) : 0) + ',' +
-					(el.c.b ? ( intensity * (el.c.b / 256 )) : 0) + ','
+					(el.c.r ? ( settings.intensity * (el.c.r / 256 )) : 0) + ',' +
+					(el.c.g ? ( settings.intensity * (el.c.g / 256 )) : 0) + ',' +
+					(el.c.b ? ( settings.intensity * (el.c.b / 256 )) : 0) + ','
 				:
 					'0,0,0,'
 				) +
